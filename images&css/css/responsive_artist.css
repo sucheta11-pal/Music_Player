@@ -1,0 +1,26 @@
+@media screen and (max-width:1000px){
+    .trends
+    {
+        /* border: 2px solid springgreen; */
+        width: 100%;
+    }
+    .col
+    {
+        /* border: 2px solid springgreen; */
+        width: 100%;
+    }
+    #main-container
+    {
+        /* border: 2px solid springgreen; */
+        flex-direction: column;
+    }
+
+    .width-65
+    {
+        width: 65%;
+    }
+    .small1
+    {
+        width:18%;
+    }
+}

@@ -1,0 +1,88 @@
+@media screen and (max-width:1200px) 
+{
+    #play-music:target audio
+    {
+        width: 15%;
+    }
+}
+
+.devicelt-1024
+{
+    display: none;
+}
+
+
+@media screen and (max-width:1024px) {
+    
+    .song-style
+    {
+        width: 70%;
+        /* border: 4px solid rgb(198, 231, 9); */
+    
+    }
+    #play-music:target audio
+    {
+        width: 60%;
+        left: 25%;
+        opacity: 0;
+    }
+    .more-icons
+    {
+        display: none;
+    }
+    .foot-icons
+    {
+        display: none;
+    }
+    .icon-range
+    {
+        /* border: 5px solid rgb(226, 131, 7); */
+        width: 40%;
+        position: relative;
+    }
+    .devicelt-1024
+    {
+        display: flex;
+        /* border: 5px solid green; */
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .devicelt-1024 div i
+    {
+        font-size: 1rem;
+    }
+    
+    
+    }
+    
+    @media screen and (max-width:960px) 
+    {
+        #play-music:target audio
+    {
+        width: 65%;
+        left: 20%;
+    }
+    }
+    @media screen and (max-width:864px) 
+    {
+        #play-music:target audio
+    {
+        width: 70%;
+    }
+    }
+    @media screen and (max-width:643px) 
+    {
+        #play-music:target audio
+    {
+        width: 80%;
+    }
+    
+    .song-style
+    {
+        width: 85%;
+    }
+    .width-65
+    {
+        width: 65%;
+    }
+    }

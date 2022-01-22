@@ -1,0 +1,170 @@
+.col
+{
+    display: flex;
+    flex-direction: column;
+    /* border: green 5px solid; */
+    width: 30%;
+    height: auto;
+}
+.queue
+{
+    /* border: green 5px solid; */
+    width: 100%;
+    height: 100vh;
+    
+}
+.Queue-heading
+{
+    margin-left: -1rem;
+}
+.release-box
+{
+    width: 100%;
+    /* border: rgb(160, 201, 160) 5px solid; */
+
+}
+
+.width-65
+{
+    width: 90%;
+}
+
+.small
+{
+    width: 18%;
+}
+
+.heart
+{
+    margin-right: 8%;
+}
+
+/* About artist */
+.Artist
+{
+    display: flex;
+    /* border: solid 5px red; */
+    margin-bottom: 5rem;
+    background-color: #141b41;
+    justify-content: space-around;
+}
+.artist-pic
+{
+    width: 42%;
+    /* border: solid 5px rgb(161, 146, 146); */
+
+}
+.artist-pic img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: 26px 26px 25px darkmagenta;
+}
+
+.artist-desc
+{
+    width: 49%;
+    /* border: 2px solid pink; */
+}
+
+/*  */
+.head-container
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid beige; */
+    align-items: center;
+}
+.about-artist
+{
+    color: #bbbdc6;
+     letter-spacing: 0px; 
+     font-size: 1.2rem;
+    /* border: 2px solid beige; */
+    margin-top: 3rem;
+    margin-left: 3px;
+    line-height: 15px;
+}
+.btn-container
+{
+    /* border: 2px solid beige; */
+    display: flex;
+    justify-content: space-around;
+}
+.btn-info
+{
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    background-image: linear-gradient(to right, #0e1c72 0%, rgb(194 38 208)  51%, #0e1c72  100%);
+}
+.btn {
+    margin: 3px;
+    padding: 6% 20%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* border-radius: 30%0; */
+    display: block;
+    width: 76%;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+        
+.col-blue-var
+{
+    background-color: #1a1e33;
+    margin-bottom: 1rem;
+    height: 3rem;
+}
+.release-img img{
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+     
+}
+.small img{
+    width: 100%;
+    
+}
+.small
+{
+    width: 10%;
+}
+.heart-dim div a i
+{
+    font-size: 0.9rem;
+    color: #bbbdc6;
+    margin-right: 1%;
+}
+.heart-dim
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.small img{
+    width: 100%;
+    height: 100%;
+}
+.q-box
+{
+    justify-content: space-between;
+}
